@@ -1,0 +1,132 @@
+* {
+  font-family: var(--fontMain),Monospace;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--fontHead);
+}
+
+* {
+  color: var(--darkClr);
+  text-decoration: none;
+  text-transform: inherit;
+  -webkit-tap-highlight-color: transparent !important;
+  tap-highlight-color: transparent !important;
+}
+
+*::placeholder {
+  color: var(--grayClr);
+}
+
+a {
+  font-family: var(--fontNav);
+  text-transform: uppercase;
+}
+
+.button {
+  border: none;
+  outline: none;
+}
+
+.button-1 {
+  color: var(--darkClr);
+  font-size: 1rem;
+  font-weight: 700;
+  margin: .5rem 0;
+  padding: .8rem 1rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-top: 2px solid var(--primaryClr);
+  border-bottom: 2px solid var(--primaryClr);
+  transition: .3s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.button-1:hover {
+  color: var(--primaryClr);
+  border-top: 2px solid var(--darkClr);
+  border-bottom: 2px solid var(--darkClr);
+}
+
+.button-1:active {
+  background: var(--darkClr);
+  color: var(--lightClr);
+  border: none;
+}
+
+.button-2 {
+  color: #fff;
+  font-size: .7rem;
+  font-weight: 500;
+  padding: .5rem .65rem;
+  background: var(--darkClr);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  border-radius: .2rem;
+  transition: .3s;
+}
+
+.button-2:hover {
+  background-color: var(--primaryClr);
+}
+
+.button-2:active {
+  background: var(--darkClr);
+}
+
+.letterHeading {
+  width: 100%;
+  height: auto;
+  display: grid;
+  place-items: center;
+  padding: 2rem 0;
+}
+
+.letterHeading span {
+  font-size: 7rem;
+  color: var(--grayClr);
+  font-weight: 900;
+  position: relative;
+  font-family: var(--fontHead);
+}
+
+.letterHeading span:before {
+  position: absolute;
+  content: "";
+  border-bottom: 1px solid var(--grayClr);
+  width: 80vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.element-1 span{
+  color: var(--darkClr);
+  font-size: 1rem;
+  font-weight: 900;
+  margin: .5rem 0;
+  padding: 1.2rem 3.8rem;
+  background: transparent;
+  border: .05px solid var(--grayClr);
+  border-left: none;
+  transition: .3s;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  font-family: var(--fontHead);
+}
+
+.element-1 span:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%,-50%);
+  width: 20%;
+  height: 20%;
+  background: transparent;
+  border-radius: .2rem;
+  border-top: 2px solid var(--primaryClr);
+  border-bottom: 2px solid var(--primaryClr);
+}

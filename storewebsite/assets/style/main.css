@@ -1,0 +1,30 @@
+@import 'fonts.css';
+@import 'variables.css';
+@import 'classes.css';
+@import 'menu.css';
+@import 'banner.css';
+@import 'about.css';
+@import 'card-products.css';
+@import 'card-products.css';
+@import 'best-choices.css';
+@import 'ads.css';
+@import 'contact.css';
+@import 'footer.css';
+
+::selection {
+  background: var(--primaryClr);
+  color: var(--lightClr);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  transition: .5s;
+  padding-top: 4rem !important;
+}

@@ -1,0 +1,220 @@
+@font-face {
+  font-family:Montserrat;
+  font-weight:100;
+  font-style:none;
+  src:url('../fonts/montserrat/Montserrat-Thin.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:100;
+  font-style:italic;
+  src:url('../fonts/montserrat/Montserrat-ThinItalic.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:200;
+  font-style:none;
+  src:url('../fonts/montserrat/Montserrat-ExtraLight.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:200;
+  font-style:italic;
+  src:url('../fonts/montserrat/Montserrat-ExtraLightItalic.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:300;
+  font-style:none;
+  src:url('../fonts/montserrat/Montserrat-Light.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:300;
+  font-style:italic;
+  src:url('../fonts/montserrat/Montserrat-LightItalic.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:400;
+  font-style:none;
+  src:url('../fonts/montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:400;
+  font-style:italic;
+  src:url('../fonts/montserrat/Montserrat-RegularItalic.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:500;
+  font-style:none;
+  src:url('../fonts/montserrat/Montserrat-Medium.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:500;
+  font-style:italic;
+  src:url('../fonts/montserrat/Montserrat-MediumItalic.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:600;
+  font-style:none;
+  src:url('../fonts/montserrat/Montserrat-SemiBold.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:600;
+  font-style:italic;
+  src:url('../fonts/montserrat/Montserrat-SemiBoldItalic.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:700;
+  font-style:none;
+  src:url('../fonts/montserrat/Montserrat-Bold.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:700;
+  font-style:italic;
+  src:url('../fonts/montserrat/Montserrat-BoldItalic.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:800;
+  font-style:none;
+  src:url('../fonts/montserrat/Montserrat-ExtraBold.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:800;
+  font-style:italic;
+  src:url('../fonts/montserrat/Montserrat-ExtraBoldItalic.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:900;
+  font-style:none;
+  src:url('../fonts/montserrat/Montserrat-Black.ttf');
+}
+@font-face {
+  font-family:Montserrat;
+  font-weight:900;
+  font-style:italic;
+  src:url('../fonts/montserrat/Montserrat-BlackItalic.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:100;
+  font-style:none;
+  src:url('../fonts/Mulish/static/Mulish-Thin.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:100;
+  font-style:italic;
+  src:url('../fonts/Mulish/static/Mulish-ThinItalic.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:200;
+  font-style:none;
+  src:url('../fonts/Mulish/static/Mulish-ExtraLight.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:200;
+  font-style:italic;
+  src:url('../fonts/Mulish/static/Mulish-ExtraLightItalic.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:300;
+  font-style:none;
+  src:url('../fonts/Mulish/static/Mulish-Light.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:300;
+  font-style:italic;
+  src:url('../fonts/Mulish/static/Mulish-LightItalic.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:400;
+  font-style:none;
+  src:url('../fonts/Mulish/static/Mulish-Regular.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:400;
+  font-style:italic;
+  src:url('../fonts/Mulish/static/Mulish-RegularItalic.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:500;
+  font-style:none;
+  src:url('../fonts/Mulish/static/Mulish-Medium.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:500;
+  font-style:italic;
+  src:url('../fonts/Mulish/static/Mulish-MediumItalic.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:600;
+  font-style:none;
+  src:url('../fonts/Mulish/static/Mulish-SemiBold.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:600;
+  font-style:italic;
+  src:url('../fonts/Mulish/static/Mulish-SemiBoldItalic.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:700;
+  font-style:none;
+  src:url('../fonts/Mulish/static/Mulish-Bold.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:700;
+  font-style:italic;
+  src:url('../fonts/Mulish/static/Mulish-BoldItalic.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:800;
+  font-style:none;
+  src:url('../fonts/Mulish/static/Mulish-ExtraBold.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:800;
+  font-style:italic;
+  src:url('../fonts/Mulish/static/Mulish-ExtraBoldItalic.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:900;
+  font-style:none;
+  src:url('../fonts/Mulish/static/Mulish-Black.ttf');
+}
+@font-face {
+  font-family:Mulish;
+  font-weight:900;
+  font-style:italic;
+  src:url('../fonts/Mulish/static/Mulish-BlackItalic.ttf');
+}
+@font-face {
+  font-family:Bebas Neue;
+  src:url('../fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+}

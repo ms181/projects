@@ -1,0 +1,40 @@
+.ads {
+  width: 100%;
+  height: auto;
+  padding-bottom: 2rem;
+  overflow: hidden;
+}
+
+.ads .top {
+  width: 100%;
+  height: auto;
+}
+
+.ads .top .element-1 {
+  width: 60%;
+  margin: auto;
+}
+
+.ads .grid {
+  width: 60%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.72rem;
+}
+
+.ads .grid .ad-wrapper {
+  width: 100%;
+  height: 20vh;
+  background: var(--grayClr);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  display: grid;
+  place-items: center;
+  border-radius: .2rem;
+}
+
+.ads .grid .ad-wrapper p {
+  text-align: center;
+  font-size: 1rem;
+  color: #ffffff;
+}

@@ -1,0 +1,11 @@
+:root {
+  --fontMain: 'Montserrat';
+  --fontHead: 'Mulish';
+  --fontNav:'Mulish';
+  --fontCondensed:'Bebas Neue';
+  --primaryClr:#F0B315;
+  --secondaryClr:#F1D897;
+  --darkClr:#34393D;
+  --grayClr:#b5bcc2;
+  --lightClr:#F4FAFF;
+}

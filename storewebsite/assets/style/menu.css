@@ -1,0 +1,107 @@
+.topNavigation{
+  width: 100%;
+  height: 4rem;
+  box-shadow: 0 5px 15px #0001,0 15px 50px #0001;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999999999999999;
+}
+
+.topNavigation .logo {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topNavigation .logo img {
+  width: 100%;
+}
+
+.topNavigation .search {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ .topNavigation .search input[type=text]{
+   width: 80%;
+   height: 60%;
+   outline: none;
+   border: 2px solid var(--primaryClr);
+   border-right: none;
+   border-radius: 9999px 0 0 9999px;
+   padding: 10px;
+   background: transparent;
+   color: var(--darkClr);
+   font-size: .6rem;
+   text-transform: capitalize;
+ }
+ 
+ .topNavigation .search input[type=text]:placeholder {
+   color: var(--grayClr);
+ }
+ 
+ .topNavigation .search a{
+   width: 20%;
+   height: 60%;
+   margin-left: -2rem;
+   outline: none;
+   border: 2px solid var(--primaryClr);
+   border-left: none;
+   border-radius: 9999px;
+   transform: scale(1.1);
+   box-shadow: 0 0 10px #0001;
+   color: var(--lightClr);
+   background: var(--primaryClr);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .topNavigation .buttons {
+   width: 50%;
+   height: 100%;
+ }
+ 
+ .topNavigation .buttons .list {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   list-style: none;
+ }
+ 
+ .topNavigation .buttons .list li {
+   font-size: .7rem;
+   color: var(--grayClr);
+ }
+ 
+ .topNavigation .buttons .list li.other{
+   color: var(--darkClr);
+ }
+ 
+ .topNavigation .buttons .list li:hover {
+   color: var(--primaryClr);
+   transition: .3s;
+   text-decoration: underline;
+ }
+ 
+ .topNavigation .buttons .list li a {
+   color: inherit;
+   text-transform: capitalize;
+ }
